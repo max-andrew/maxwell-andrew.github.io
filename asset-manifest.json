@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.f660448d.chunk.js",
-    "main.js.map": "/static/js/main.f660448d.chunk.js.map",
+    "main.css": "/static/css/main.60e32508.chunk.css",
+    "main.js": "/static/js/main.d42bff14.chunk.js",
+    "main.js.map": "/static/js/main.d42bff14.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.afee2e22.chunk.js": "/static/js/2.afee2e22.chunk.js",
+    "static/js/2.afee2e22.chunk.js.map": "/static/js/2.afee2e22.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cffb3cf1345801e35bac29a86f6ade48.js": "/precache-manifest.cffb3cf1345801e35bac29a86f6ade48.js",
-    "service-worker.js": "/service-worker.js"
+    "precache-manifest.67ed2cea5cb9106cff95a38fe673750a.js": "/precache-manifest.67ed2cea5cb9106cff95a38fe673750a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.60e32508.chunk.css.map": "/static/css/main.60e32508.chunk.css.map",
+    "static/media/scientist.jpeg": "/static/media/scientist.cc71a665.jpeg"
   }
 }
