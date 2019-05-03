@@ -16,7 +16,7 @@
 		<meta property="og:url" content="http://storyarc.xyz/" />
 		<meta property="og:site_name" content="StoryArc" />
 		<script type="application/ld+json">
-		{"name":"StoryArc","description":"We partner with creators, agencies, and marketers to build artificial intelligence to make content that makes a difference.","@type":"WebSite","url":"http://localhost:4000/about/","headline":"About","@context":"https://schema.org"}</script>
+		{"name":"StoryArc","description":"We partner with creators, agencies, and marketers to build artificial intelligence to make content that makes a difference.","@type":"WebSite","url":"http://storyarc.xyz","headline":"About","@context":"https://schema.org"}</script>
 		<!-- End Jekyll SEO tag -->
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120656560-1"></script>
@@ -27,6 +27,7 @@
 
 			gtag('config', 'UA-120656560-1');
 		</script>
+
 		<link rel="stylesheet" href="/assets/main.css"><link rel="stylesheet" href="/assets/css/styles.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="StoryArc" />
 	</head>
 	<body>
@@ -50,13 +51,9 @@
 		</header>
 		<main class="page-content" aria-label="Content">
 	    	<div class="wrapper">
-				<video width="400" id="home-bg" poster="/assets/img/home-bg-sty.png" playsinline autoplay muted loop>
+				<video width="400" id="home-bg" poster="/assets/img/home-bg-sty.png" autoplay loop>
 					<source src="/assets/img/home-bg-sty.mov">
 				</video>
-
-				<script>
-					document.getElementById('home-bg').play();
-				</script>
 	    		
 				<header class="post-header">
 					<h1 class="post-title">AI With Soul</h1>
@@ -70,9 +67,9 @@
 					<p>We partner with creators, agencies, and marketers to build artificial intelligence to make content that makes a difference.</p>
 				</div>
 
-				<form action="mailto:hello%40storyarc%2Exyz?subject=Hello" method="GET">
-				    <input name="subject" class="project-button" type="button" value="START A PROJECT" />
-				</form>
+				<button class="project-button" onclick="location.href='mailto:hello%40storyarc%2Exyz?subject=New Project';">
+					START A PROJECT
+				</button>
 	    	</div>
 	  	</main>
 	</body>
