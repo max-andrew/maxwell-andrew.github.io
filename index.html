@@ -51,9 +51,19 @@
 		</header>
 		<main class="page-content" aria-label="Content">
 	    	<div class="wrapper">
-				<video width="400" id="home-bg" poster="/assets/img/home-bg-sty.png" autoplay loop>
+				<video width="400" id="home-bg" poster="/assets/img/home-bg-sty.png" autoplay muted loop>
 					<source src="/assets/img/home-bg-sty.mov">
 				</video>
+
+				<!--
+				<video width="400" id="home-bg" poster="/assets/img/home-bg-sty.png" playsinline autoplay muted loop>
+					<source src="/assets/img/home-bg-sty.mov">
+				</video>
+
+				<script>
+					document.getElementById('home-bg').play();
+				</script>
+				-->
 	    		
 				<header class="post-header">
 					<h1 class="post-title">AI With Soul</h1>
