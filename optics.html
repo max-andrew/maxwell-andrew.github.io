@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
 		<!-- Begin Jekyll SEO tag v2.6.0 -->
-		<title>StoryArc</title>
+		<title>Optics</title>
 		<meta name="generator" content="Jekyll v3.8.5" />
 		<meta property="og:title" content="About" />
 		<meta property="og:locale" content="en_US" />
@@ -16,17 +16,23 @@
 		<meta property="og:url" content="http://storyarc.xyz/" />
 		<meta property="og:site_name" content="StoryArc" />
 		<script type="application/ld+json">
-		{"name":"StoryArc","description":"We partner with creators, agencies, and marketers to build artificial intelligence to make content that makes a difference.","@type":"WebSite","url":"http://localhost:4000/about/","headline":"About","@context":"https://schema.org"}</script>
+		{"name":"Optics","description":"Intelligent image selection for content creators","@type":"WebSite","url":"http://storyarc.xyz/optics/","headline":"Optics","@context":"https://schema.org"}</script>
 		<!-- End Jekyll SEO tag -->
+
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120656560-1"></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+			if (jekyll.environment == "production") {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
 
-			gtag('config', 'UA-120656560-1');
+				gtag('config', 'UA-120656560-1');
+			}
 		</script>
+		
+
 		<link rel="stylesheet" href="/assets/main.css"><link rel="stylesheet" href="/assets/css/styles.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="StoryArc" />
 	</head>
 	<body>

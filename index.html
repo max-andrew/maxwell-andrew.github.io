@@ -16,17 +16,22 @@
 		<meta property="og:url" content="http://storyarc.xyz/" />
 		<meta property="og:site_name" content="StoryArc" />
 		<script type="application/ld+json">
-		{"name":"StoryArc","description":"We partner with creators, agencies, and marketers to build artificial intelligence to make content that makes a difference.","@type":"WebSite","url":"http://storyarc.xyz","headline":"About","@context":"https://schema.org"}</script>
+		{"name":"StoryArc","description":"We partner with creators, agencies, and marketers to build artificial intelligence to make content that makes a difference.","@type":"WebSite","url":"http://storyarc.xyz","headline":"Home","@context":"https://schema.org"}</script>
 		<!-- End Jekyll SEO tag -->
+
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120656560-1"></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+			if (jekyll.environment == "production") {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
 
-			gtag('config', 'UA-120656560-1');
+				gtag('config', 'UA-120656560-1');
+			}
 		</script>
+		
 
 		<link rel="stylesheet" href="/assets/main.css"><link rel="stylesheet" href="/assets/css/styles.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="StoryArc" />
 	</head>
