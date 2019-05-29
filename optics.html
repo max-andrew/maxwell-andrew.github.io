@@ -49,6 +49,14 @@
 				<video width="400" id="home-bg" poster="/assets/img/optics-one-page-bg.png" autoplay muted loop>
 					<source src="/assets/img/optics-one-page-bg.mov">
 				</video>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+				<script type="text/javascript">
+					setTimeout(
+					function() 
+					{
+						$('#home-bg').get(0).play()
+					}, 300);
+				</script>
 
 				<header class="post-header" id="default-header">
 					<h1 class="post-title">Optics</h1>
@@ -78,7 +86,7 @@
 						<img src="/assets/img/optics-optimal-photo.png" alt="Optimal Photo" />
 					</div>
 					<div class="grid-item gi-txt">
-						<p class="shadow-caption">We use artificial intelligence to design or select your best.</p>
+						<p class="shadow-caption">We use artificial intelligence to find or design your best.</p>
 						<p class="shadow-caption">Guaranteed.</p>
 					</div>
 				</div>
